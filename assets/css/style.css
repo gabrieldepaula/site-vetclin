@@ -3262,4 +3262,12 @@ p.form-message.success, p.form-message.error {
   background: -o-linear-gradient(left, rgba(18, 18, 18, 0) 0%, #121212 100%);
   background: linear-gradient(to right, rgba(18, 18, 18, 0) 0%, #121212 100%); */
 }
+.carousel .carousel-control-prev, .carousel .carousel-control-next {
+  color: #56b6b2;
+}
+
+.carousel-indicators li, .carousel-indicators li.active {
+  color: #56b6b2;
+  background-color: #56b6b2;
+}
 /*# sourceMappingURL=style.css.map */
