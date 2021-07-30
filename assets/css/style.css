@@ -3270,4 +3270,8 @@ p.form-message.success, p.form-message.error {
   color: #56b6b2;
   background-color: #56b6b2;
 }
+
+.navbar-toggler {
+  background-color: #56b6b2;
+}
 /*# sourceMappingURL=style.css.map */
