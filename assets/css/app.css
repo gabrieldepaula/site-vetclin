@@ -1,6 +1,8 @@
 body {
     background-color: #56b6b2;
     padding: 10px;
+    font-family: 'Open Sans';
+    color: #435258;
 }
 
 .container {
@@ -25,7 +27,7 @@ body {
     margin-bottom: 20px;
 }
 
-.tel, .whats, .facebook, .instagram {
+a, a:focus, a:active, a:hover {
     display: block;
     color: #435258;
     text-decoration: none;
@@ -35,8 +37,7 @@ body {
     font-family: 'Open Sans';
 }
 
-.address {
-    font-family: 'Open Sans';
+.address, .address:focus, .address:active, .address:hover {
     color: #435258;
     text-align: center;
     font-size: 16px;
@@ -45,7 +46,25 @@ body {
     display: block;
 }
 
+.under-construction {
+    text-align: center;
+    font-size: 12px;
+}
+
 .mapa {
     display: block;
     max-width: 100%;
+    margin-bottom: 30px;
+}
+
+.whtasapp-icon {
+    color: #25D366;
+}
+
+.facebook-icon {
+    color: #4267B2;
+}
+
+.instagram-icon {
+    color: #E1306C;
 }
